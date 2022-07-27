@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="nav-background">
+        <!-- ############################################################ -->
+        <!-- Navigation Bar Content Top -->
+        <!-- ############################################################ -->
+        <div class="navigation-bar container">
+            <nav class="row pad">
+                <div class="navleft row">
+                    <img class="logo" src="./assets/heart-light.png" alt="Heart Icon">
+                    <h1>Pet Shelter</h1>
+                </div>
+                <div class="navright row">
+                    <ul class="row">
+                        <li>Find a Pet</li>
+                        <li>About</li>
+                    </ul>
+                    <button onclick="hide(this)" class="button1">Donate</button>
+                </div>
+            </nav>
+            <!-- ############################################################ -->
+            <!-- Navigation Bar Content Bottom -->
+            <!-- ############################################################ -->
+            <div class="petsearch row margin pad">
+                <div class="selector-text">
+                    <p>I'm looking for a...</p>
+                    <div class="row">
+                        <img class="icon" src="./assets/paw-light.png" alt="Paw Icon">
+                        <select name="pet-selection" onchange="selectChange(this)">
+                            <option>Cat</option>
+                            <option>Dog</option>
+                            <option>Bunny</option>
+                            <option>Bird</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="location-selection">
+                    <p>in or near...</p>
+                    <div class="row">
+                        <img class="icon" src="./assets/mapicon.png" alt="Location Icon">
+                        <input class="location-search" type="text" placeholder="City or Zip Code">
+                    </div>
+                </div>
+                <button class="button2">Find your new best friend</button>
+            </div>
+        </div>
+    </div>
+    <!-- ############################################################ -->
+    <!-- End Navigation Bar -->
+    <!-- ############################################################ -->
+    <!-- ############################################################ -->
+    <!-- Begin Main Body -->
+    <!-- ############################################################ -->
+    <div class="container">
+        <!-- ############################################################ -->
+        <!-- Begin Pepper Card -->
+        <!-- ############################################################ -->
+        <div class="pet-profile row pad">
+            <div class="frame-container">
+                <div class="frame">
+                    <img class="framed-image" src="./assets/pepper.jpg" alt="Pepper">
+                </div>
+            </div>
+            <div class="profile-content column">
+                <h2>Pepper</h2>
+                <p>Pepper is a slightly shy and grey tabby, but she really loves showing her human affection.</p>
+            </div>
+            <div class="pets column">
+                <p><span id="numPets1">0</span> Pets</p>
+                <button onclick="increment(numPets1)" class="button3">Pet Pepper</button>
+            </div>
+        </div>
+        <!-- ############################################################ -->
+        <!-- Begin Bruce Card -->
+        <!-- ############################################################ -->
+        <div class="pet-profile row pad">
+            <div class="row">
+                <div class="frame-container">
+                    <div class="frame">
+                        <img class="framed-image" src="./assets/bruce.jpg" alt="Bruce">
+                    </div>
+                </div>
+                <div class="profile-content column">
+                    <h2>Bruce</h2>
+                    <p>Bruce is a loyal companion. He loves long walks and cold weather.</p>
+                </div>
+            </div>
+            <div class="pets column">
+                <p><span id="numPets2">0</span> Pets</p>
+                <button onclick="increment(numPets2)" class="button3">Pet Bruce</button>
+            </div>
+        </div>
+        <!-- ############################################################ -->
+        <!-- Begin Oscar Card -->
+        <!-- ############################################################ -->
+        <div class="pet-profile row pad">
+            <div class="row">
+                <div class="frame-container">
+                    <div class="frame">
+                        <img class="framed-image" src="./assets/oscar.jpg" alt="Oscar">
+                    </div>
+                </div>
+                <div class="profile-content column">
+                    <h2>Oscar</h2>
+                    <p>Oscar is bright, energetic, and friendly. He is looking for a good home.</p>
+                </div>
+            </div>
+            <div class="pets column">
+                <p><span id="numPets3">0</span> Pets</p>
+                <button onclick="increment(numPets3)" class="button3">Pet Oscar</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
