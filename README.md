@@ -11,5 +11,5 @@
 
 ### Screen Capture of Web Page:
 <p align="center">
-  <img src="./petShelter.png" />
+  <img src="./assets/boociesSanctuaryScreenCap.png" />
 </p>
