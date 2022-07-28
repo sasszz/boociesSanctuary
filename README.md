@@ -1,6 +1,6 @@
 #  Boocie's Sanctuary Custom Web Page
 - *Completed with HTML, CSS and Javascript in ~3 hours*
-- *Pages link to site: https://sasszz.github.io/petShelter/*
+- *Pages link to site: https://sasszz.github.io/boociesSanctuary/*
 
 ### Highlighted Functionality:
 - Buttons and Navigation Bar Links change color when hovered over
