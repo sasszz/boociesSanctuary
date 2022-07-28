@@ -1,4 +1,4 @@
-# Pet Shelter Web Page
+#  Your Local Pet Store Web Page
 - *Completed with HTML, CSS and Javascript in ~3 hours*
 - *Pages link to site: https://sasszz.github.io/petShelter/*
 
