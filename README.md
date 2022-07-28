@@ -1,4 +1,4 @@
-#  Your Local Sanctuary Store Web Page
+#  Boocie's Sanctuary Custom Web Page
 - *Completed with HTML, CSS and Javascript in ~3 hours*
 - *Pages link to site: https://sasszz.github.io/petShelter/*
 
